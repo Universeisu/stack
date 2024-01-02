@@ -1,0 +1,17 @@
+#stack-container, #block-container {
+    width: 200px;
+    min-height: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.block {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(178, 45, 196);
+    margin: 2px 0;
+    cursor: grab;
+}
